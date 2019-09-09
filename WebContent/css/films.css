@@ -1,0 +1,60 @@
+li {list-style-type:none;}
+		.main{
+			width: 1000px;
+			margin: 40px auto;
+		}
+		
+
+		.main .block1{
+			width: 430px;
+			height: 250px;
+			margin-top: 20px;
+			float: left;
+		}
+		.main .block2{
+			width: 430px;
+			height: 250px;
+			margin-top: 20px;
+			float: right;
+		}
+		.main .block1 h1,
+		.main .block2 h1{
+			color: #00bfff;
+			font-size: 20px;
+			font-family: "微软雅黑";
+			line-height: 50px;
+			text-indent: lem;
+		}
+		.main .block1 ul,
+		.main .block2 ul{
+			width: 390px;
+			margin: 0 19px 10px 19px;
+		}
+		.main .block1 ul li,
+		.main .block2 ul li{
+			width: 390px;
+			height: 40px;
+		}
+		.main .block1 ul li a,
+		.main .block1 ul li time,
+		.main .block2 ul li a,
+		.main .block2 ul li time{
+			color: #e0ffff;
+			font-size: 14px;
+			font-family: "微软雅黑";
+			line-height: 40px;
+			text-decoration: none;
+		}
+		.main .block1 ul li a,
+		.main .block2 ul li a{
+			float: left;
+		}
+		.main .block1 ul li a:hover,
+		.main .block2 ul li a:hover{
+			color: #e5d429;
+		}
+		.main .block1 ul li time,
+		.main .block2 ul li time{
+			float: right;
+		}
+		
